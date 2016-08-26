@@ -1,0 +1,6 @@
+AuthType Basic
+AuthName "Admin Panel"
+AuthUserFile C:/xampp/htdocs/blog/admin/.htpasswd
+Require valid-user
+AddDefaultCharset Off
+AddCharset UTF-8 .php
